@@ -1,4 +1,4 @@
-### rWidget
+# rWidget
 Create HTML scripts from htmlwidgets and embed them to web page on the fly.
 
 The **rWidget** package provides a way to integrate [htmlwidgets](http://www.htmlwidgets.org/) to web page directly. [htmlwidgets](http://www.htmlwidgets.org/) is a great way to interface JavaScript libraries with R. However, you need to start with some "R" environment like R console, [R Markdown](http://rmarkdown.rstudio.com), etc. to use it. There are some scenarios you want to use htmlwidgets, but in your own web pages:
