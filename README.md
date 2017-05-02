@@ -18,6 +18,8 @@ devtools::install_github('processadd/rWidget')
 # Getting Started
 The primary flow is: web page -> Ajax call -> embed HTML output to web page. 
 
+<img src="rWidget_screenshot.png">
+
 ## Ajax call
 Read data source. Pass results as JSON to SQL Server stored procedure. Call R scripts and rWidget to generate HTML scripts.
 
