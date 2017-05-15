@@ -50,8 +50,8 @@ getDependencies <- function(html,
                             basePath = "",
                             srcType = c("href", "file"),
                             encodeFunc = htmltools::urlEncodePath) {
-  if(is.na(url)) url = "" #in stored proc, empty string is taken as NA
-  if(is.na(basePath)) basePath = ""
+  if(is.na(url)) url <- "" #in stored proc, empty string is taken as NA
+  if(is.na(basePath)) basePath <- ""
   urlBase <- paste(gsub("/*$", "", url), basePath, sep = "/")
   urlBase <- paste(gsub("/*$", "", urlBase), "/", sep = "") # needs to end with / to add dependency path
 

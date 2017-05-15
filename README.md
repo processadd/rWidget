@@ -35,11 +35,7 @@ R scripts inside the stored procedure needs to call *rWidget* to generate the fi
 rWidget generates the HTML. You can figure out a way to embed to your web page. In examples provided by this package, iframe is used to render the HTML.
 It is recommended to store htmlwidgets dependencies first in a virtual path where your web page can find. 
 
-## Deploy web solution
-* Register needed R packages to SQL Server.
-* Generate dependencies for used htmlwidgets and put them under virtual path.
-
-# You might be interested because
+# Benefits
 * Use htmlwidgets in your own normal web pages. You can go with any web page technologies and things like security management instead of using a cloud dashboard behind.
 * You need SQL Server 2016. This SQL Server can be dedicated to "R server" usage and doesn't have to have any data or tables. You might prefer SQL Server controlled by yourself than a "R server" hosted in third-parties. 
 * Stop re-inventing wheels. Take advantage of amazing [htmlwidgets](http://www.htmlwidgets.org/) "controls". 
